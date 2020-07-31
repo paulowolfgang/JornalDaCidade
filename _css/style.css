@@ -1,0 +1,31 @@
+/* ### Estrutura ### */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #fff url(../_imagens/fundo.png) repeat-x;
+}
+
+#principal {
+	width: 750px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+#topo {
+	height: 150px;
+	background: url(../_imagens/logo-topo.png) no-repeat right top;
+	padding-top: 25px;
+	border: 1px solid red;
+}
+
+.logo {
+	width: 152px;
+	height: 66px;
+	background: url(../_imagens/logo.png) no-repeat center;
+	text-indent: -4000px;
+}
+
