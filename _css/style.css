@@ -58,3 +58,43 @@ ul {
 #topo ul a:hover {
 	color: #69001d;
 }
+
+/* ### Layout Colunas ### */
+#conteudo {
+	background: #EEE9E9;
+	margin-top: 65px;
+}
+
+#primeiro {
+	background: blue;
+	width: 270px;
+	margin: 0 0 20px 195px; /* Margem esquerda com 180px + 15px para espaçamento */
+	float: left;
+}
+
+#segundo {
+	background: green;
+	width: 270px;
+	margin: 0 0 20px 15px;
+	float: left;
+}
+
+#lateral {
+	background: yellow;
+	width: 180px;
+	margin: 0 0 20px -750px; /* Margem esquerda negativa para colcoar a div no início do container*/
+	float: left;
+}
+
+/* ### Rodapé ### */
+#container-rodape {
+	clear: both;
+	background: #003380;
+	padding: 25px;
+}
+
+#rodape {
+	width: 750px;
+	margin: 0 auto;
+	color: #fff;
+}
