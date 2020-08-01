@@ -66,24 +66,42 @@ ul {
 }
 
 #primeiro {
-	background: blue;
 	width: 270px;
 	margin: 0 0 20px 195px; /* Margem esquerda com 180px + 15px para espaçamento */
 	float: left;
 }
 
 #segundo {
-	background: green;
 	width: 270px;
 	margin: 0 0 20px 15px;
 	float: left;
 }
 
 #lateral {
-	background: yellow;
 	width: 180px;
 	margin: 0 0 20px -750px; /* Margem esquerda negativa para colcoar a div no início do container*/
 	float: left;
+}
+
+/* ### Conteúdo do Site [colunas] ### */
+
+.caixa {
+	background: #f3f3f3 url(../_imagens/fundo-caixa.png);
+	margin: 10px 0;
+	padding: 5px;
+}
+
+.caixa-conteudo {
+	background: #fff;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+h2 {
+	font-size: 1.1em;
+	background: #003380;
+	color: #fff;
+	padding: 5px;
 }
 
 /* ### Rodapé ### */
