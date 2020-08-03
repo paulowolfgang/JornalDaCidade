@@ -40,6 +40,7 @@ ul {
 	background: #ff0000;
 	margin-top: 30px;
 	float: left;
+	border-radius: 30px 0px;
 }
 
 #topo ul li {
@@ -102,6 +103,44 @@ h2 {
 	background: #003380;
 	color: #fff;
 	padding: 5px;
+}
+
+/* ### Menu Lateral ### */
+#lateral ul a {
+	font-size: 0.9em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+	background: #f9f9f9 url(../_imagens/marcador.png) no-repeat left center;
+	color: #a1a1a1;
+	padding-left: 20px; /*Movimenta o texto para a direita*/
+}
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input {
+	font-size: 0.9em;
+	background-color: #fff;
+	padding: 5px;
+	width: 146px;
+	margin-top: 5px;
+}
+
+input.submit {
+	width: 80px;
+	color: #fff;
+	background-color: #ff0000;
+	border: 2px solid #870529;
+	margin-top: 5px;
 }
 
 /* ### Rodapé ### */
