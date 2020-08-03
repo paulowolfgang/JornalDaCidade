@@ -143,6 +143,22 @@ input.submit {
 	margin-top: 5px;
 }
 
+/* ### Formatação de Imagens*/
+img {
+	border: 2px solid #dfdfdf;
+	margin-top: 3px;
+}
+
+/* ### Formatação de Cabeçalho ### */
+h3 {
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+	background: #b10333;
+	color: #fff;
+}
+
 /* ### Rodapé ### */
 #container-rodape {
 	clear: both;
